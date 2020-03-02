@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bakery</title>
+    <title>Bakery Delicious</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -51,7 +51,7 @@
     <section class="about" id="about">
         <div class="container">
             <div class="row align-items-lg-center">
-                <div class="col-12 col-md-6 text-center text-md-left">
+                <div class="col-12 col-md-6 text-center text-md-left" data-aos="fade-right">
                     <div class="section-heading mb-3">
                         <h4>Discover</h4>
                         <h1 class="display-4">Our Story</h1>
@@ -59,12 +59,126 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum viverra risus, et faucibus lectus ultricies vel. Quisque egestas at diam nec fermentum.</p>
                     <a class="btn mt-4 mb-5 mb-md-0" href="#">Find out more</a>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6" data-aos="fade-left">
                     <img src="images/about-img.jpg" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
     </section>
+    <section class="menu" id="menu" data-aos="fade-up">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <div class="shop-info">
+                        <i class="far fa-clock mb-3"></i>
+                        <h2 class="mb-4">Opening hours</h2>
+                        <p>Mon to Fri: 8:00am - 6:00pm</p>
+                        <p>Sat to Sun: 8:00am - 1:00pm</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <div class="shop-info">
+                        <i class="fas fa-map-marked-alt mb-3"></i>
+                        <h2 class="mb-4">Our Location</h2>
+                        <address>132 First Avenue <br>New York City, NY 1232</address>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <div class="shop-info">
+                        <i class="fas fa-mobile-alt mb-3"></i>
+                        <h2 class="mb-4">Get in touch</h2>
+                        <p>Phone #: (800) 555-5555</p>
+                        <p>Email: contact@bakery.com</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-5">
+        </div>
+
+        <div class="container-fluid p-0" data-aos="fade-down">
+            <div class="section-heading my-5 text-center">
+                <h4 class="text-white">Our Delicious Food</h4>
+                <h2 class="display-4">The menu</h2>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1">
+                    <img src="images/menu-item-1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2 point-left">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h2>Cake 1</h2>
+                        <p>This cake amazing cake</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-3">
+                    <img src="images/menu-item-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4 point-left">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h2>Cake 2</h2>
+                        <p>This cake amazing cake</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5">
+                    <img src="images/menu-item-3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6 point-left">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h2>Cake 3</h2>
+                        <p>This cake amazing cake</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2">
+                    <img src="images/menu-item-4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-right">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h2>Cake 4</h2>
+                        <p>This cake amazing cake</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4">
+                    <img src="images/menu-item-5.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-3 point-right">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h2>Cake 5</h2>
+                        <p>This cake amazing cake</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6">
+                    <img src="images/menu-item-6.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-right">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h2>Cake 6</h2>
+                        <p>This cake amazing cake</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center py-5">
+       &copy; Bakery Delicious 2020
+    </footer>
 </main>
 
 
